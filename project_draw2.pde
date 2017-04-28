@@ -59,10 +59,15 @@ if(mousePressed)
 
 if(mousePressed)
 {
-  if(mouseX>550 && mouseY>750){
-  if(mouseX<560 && mouseY<740);}
-  strokeWeight(5);}
+  if(mouseX>550 && mouseY>750)
+  if(mouseX<555 && mouseY<755)
+  strokeWeight(100);}
 
+if(keyPressed)
+{
+  background(255,255,255);
+  strokeWeight(1);
+}
 }
   
   
